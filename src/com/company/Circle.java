@@ -42,21 +42,23 @@ class Circle extends Shape {
     }
 
     public void getCircleInfo(){
-        System.out.println("Circle information:\n");
+        System.out.println("Cirkel information:\n");
 
-        // prints circles radius and starting point
+        // Printer cirklens radius
         System.out.println("Radius: " + radius);
+
         System.out.println("Starting point: " + startPoint.x + ", " + startPoint.y);
-        // calculates and prints the area of the circle
+
         getArea();
         System.out.println("Area: " + (int)area);
-        // calculates and prints the circumference of the circle
+
         getCircumference();
         System.out.println("Circumference: " + (int)circumference);
-        // calculates and prints the center of the circle
+
+
         getCenter();
         System.out.println("Center: " + (int)pointN.x + ", " + (int)pointN.y);
-        // calculates, whether the given point is inside of the circle or not
+
         isPointInside(55, 15);
         isPointInside(70, 30);
     }

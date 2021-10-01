@@ -3,26 +3,24 @@ package com.company;
 class Main {
     public static void main(String[] args) {
 
-        System.out.println("\nInformation om de forskellige shapes !!\n");
+        System.out.println("\nPortfolio 1 - Shapes! \n");
 
-        Rectangle rect = new Rectangle(25, 39, new Point (0, 0));
+        Rectangle rect = new Rectangle(20, 40, new Point (0, 0));
         rect.getRectInfo();
 
-        // prints a new blank  line
-        System.out.println();
 
         Circle circle = new Circle(10, new Point(50, 10));
         circle.getCircleInfo();
 
-        //new blank line
+        //printer ny linje
         System.out.println();
 
-        Triangle triangle = new Triangle(10, 20, new Point(50, 40));
+        Triangle triangle = new Triangle(20, 30, new Point(60, 50));
         triangle.getTriangleInfo();
 
         System.out.println();
 
-        // distance between center of triangle and circle
+        // Afstanden mellem trekanten og cirklens center
         Distance distance = new Distance(triangle.pointN, circle.pointN);
         System.out.println("Distances between the center points of the shapes: \n");
 

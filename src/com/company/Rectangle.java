@@ -41,19 +41,19 @@ class Rectangle extends Shape {
 
     public void getRectInfo(){
         System.out.println("Rectangle information: \n");
-        //print width and height of rectangle
+
         System.out.println("Width: " + (int)width);
         System.out.println("Height: " + (int)height);
-        // calculates and prints the area of rectangle
         getArea();
+
         System.out.println("Area: " + (int)area);
-        // calculates and prints ci of rectangle
+
         getCircumference();
         System.out.println("Circumference: " + (int)circumference);
-        // calculates and prints the center of rectangle
+
         getCenter();
         System.out.println("Center: " + (int)pointN.x + ", " + (int)pointN.y);
-        // calculates, whether the given point is inside of the rectangle or not
+
         isPointInside(13, 20);
         isPointInside(40, 100);
     }

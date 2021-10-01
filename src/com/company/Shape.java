@@ -1,7 +1,5 @@
 package com.company;
 
-import java.lang.Math;
-
 abstract class Shape {
 
     float area;

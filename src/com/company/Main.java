@@ -12,7 +12,7 @@ class Main {
         Circle circle = new Circle(10, new Point(50, 10));
         circle.getCircleInfo();
 
-        //printer ny linje
+
         System.out.println();
 
         Triangle triangle = new Triangle(20, 30, new Point(60, 50));

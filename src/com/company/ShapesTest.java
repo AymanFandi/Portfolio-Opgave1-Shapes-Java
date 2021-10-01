@@ -7,11 +7,15 @@ import static org.junit.jupiter.api.Assertions.*;
 class ShapesTest extends Shape {
 
     @Test
+    void testGetCircumference() {
+    }
+
+    @Test
     void testGetArea() {
     }
 
     @Test
-    void testGetCircumference() {
+    void testGetEuclideanDist() {
     }
 
     @Test
@@ -21,8 +25,6 @@ class ShapesTest extends Shape {
     @Test
     void testIsPointInside() {
     }
-
-    @Test
-    void testGetEuclideanDist() {
-    }
 }
+
+

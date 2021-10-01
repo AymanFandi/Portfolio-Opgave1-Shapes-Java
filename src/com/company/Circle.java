@@ -28,9 +28,9 @@ class Circle extends Shape {
     }
 
     public void isPointInside(float x, float y){
-        // new point to check on
+
         Point pointP = new Point(x, y);
-        // find center point
+
         Point pointN = new Point(this.startPoint.x + radius, this.startPoint.y + radius);
 
         float dist = (float) Math.sqrt(Math.pow((pointP.x-pointN.x), 2) + Math.pow((pointP.y-pointN.y), 2));
@@ -44,7 +44,7 @@ class Circle extends Shape {
     public void getCircleInfo(){
         System.out.println("Cirkel information:\n");
 
-        // Printer cirklens radius
+
         System.out.println("Radius: " + radius);
 
         System.out.println("Starting point: " + startPoint.x + ", " + startPoint.y);
